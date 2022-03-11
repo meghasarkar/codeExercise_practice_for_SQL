@@ -84,4 +84,7 @@ select * from "supplier_score_metrics";
 
 Each function and flow of the program is explained in the *hubs.py* file itself for better illustration of content.
 
+## Path to documentation on observations
+[@Assumption Listing](https://github.com/meghasarkar/codeExercise_MeghaSarkar_Hubs/tree/main/external/documents)
+
 
