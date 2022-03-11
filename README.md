@@ -30,6 +30,22 @@ Install postgres on local or EC2 machine for loading and execution of data and l
 postgres -V postgres (PostgreSQL) 9.3.10
 ```
 
+### Set CRON job for daily execution of the program
+
+-Check if you already have a crontab created.
+```bash
+crontab -l 
+```
+-Create a new Crontab
+```bash
+crontab -e
+```
+-In vi editor, add the below line for executing script at 2.30AM daily
+```bash
+30 2 * * * /usr/bin/python /internal/src/hub.py
+```
+
+
 ## Installing Python requirements
 
 This will install some of the packages you might find useful:
@@ -67,4 +83,5 @@ select * from "supplier_score_metrics";
 ## Note:
 
 Each function and flow of the program is explained in the *hubs.py* file itself for better illustration of content.
+
 
