@@ -1,0 +1,14 @@
+Following are the assumptions made in the course of the problem practice:
+1. The average rating was calculated in sumation of review_value_speed and review_value_print quality by two. 
+2. Accepted percentage was calculated for the event order/execute/customer/status/payment which stands for the order acceptance from 
+   supplier and customer can proceed with payment.
+3. Traditional mechanism of reading the content from json object, processing and storing the putput to output table is considered.
+
+
+New idea for data analysis:
+1. To understand the type of customer requests, data analytics can be provided for event "context_traits_persona" which records the purpose
+   of target user.
+2. To determine the most requested type of manufacturer, event "orderStationManufacterer" can help us determine the rating, performance,
+   responses and quality of product provided by supplier.
+3. The graph on both the above category can help to come up with better target users and suppliers by providing graph of performance and 
+   market publicity.
