@@ -1,7 +1,7 @@
 
-# Code Exercise for Hubs
+# Code Exercise
 The test exercise for technical evaluation
-Data Engineer - Hubs
+Data Engineer
 
 
 
